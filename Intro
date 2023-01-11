@@ -1,0 +1,17 @@
+Memory Management consists of memory cells which contain 1 byte of binary information
+Memory Management is related to writing memory Efficient Code.If improper memory management takes place it leads to slowness in application and server components.
+Memory allocation is the process in which the memory manager finds some free space and provides it to the application.
+2 types of virtual memory works while executing programs: 1. Static Memory Allocation 2. Dynamic memory Allocation
+Static Memory allocation happens at compile time. However, we cannot use the memory again in the further program.
+Eg.static int a=10;
+Dynamic Memory allocation allocates the memory at the runtime to the program.
+Eg.int *a;  
+p = new int; 
+The default Python implementation, CPython, which is written in the C programming language.
+Important terms
+Stack Memory: When a method is called in python, stack frames handle all variables of the method. After method is returned the stack frame is automatically destroyed.
+Heap Memory:
+All objects and instance variables are stored in heap memory
+Heap memory enables these variables to be accessed globally.
+Memory Leak: Memory leak occurs when programmers create a memory in heap and forget to delete it.
+Memory leaks are particularly serious issues for programs like daemons and servers, which by definition, never terminate.
